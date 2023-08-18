@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Routine</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between">
+        <div class="login-left">
+          <div class="login-left-box">
+            <h2 class="login-left-head">Login</h2>
+            <div class="login-form">
+              <div class="input-group input-group-sm mb-3">
+                <input
+                  type="text"
+                  class="form-control form-login remove-border-box input-user-box"
+                  aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-sm"
+                  placeholder="user name/e-mail "
+                  required
+                />
+                <div class="input-user">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+              </div>
+
+              <div class="input-group input-group-sm mb-3 mt-5">
+                <input
+                  type="password"
+                  class="form-control form-login remove-border-box input-pw-box"
+                  aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-sm"
+                  placeholder="password"
+                  required
+                />
+                <div class="input-pw"><i class="fa-solid fa-lock"></i></div>
+              </div>
+            </div>
+            <div
+              class="form-check-pw d-flex justify-content-between align-items-center"
+            >
+              <div class="form-check form-check-left">
+                <input
+                  class="form-check-input login-check-input checkbox-login"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label
+                  class="form-check-label form-login"
+                  for="flexCheckDefault"
+                >
+                  Remember me
+                </label>
+              </div>
+              <a class="login-left-forget" href="#">Forgot password?</a>
+            </div>
+            <div class="btn-login-left">
+              <button type="button" class="btn btn-login-page">
+                Login <i class="fa-solid fa-angle-right btn-arrow-right"></i>
+              </button>
+            </div>
+            <div class="login-left-notice">
+              Don’t have an account yet? <a href="signup.html">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <div class="login-right vl"></div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

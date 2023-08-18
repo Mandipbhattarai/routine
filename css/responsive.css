@@ -1,0 +1,23 @@
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    /* login portal */
+    .login-right {
+        background: none;
+        width: 0;
+        height: 0;
+      }
+      .login-left {
+        max-width: 100%;
+        position: relative;
+        left: 5%;
+      }
+
+      /* signup portal  */
+      .sign-up-names{
+        display: block;
+      }
+      .last-name-signup{
+        margin-top: 3rem!important;
+      }
+  }
+  

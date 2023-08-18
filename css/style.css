@@ -1,0 +1,207 @@
+/* links of cdn */  
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* login page css here  */
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-left-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-left {
+  max-width: 50%;
+  position: relative;
+  left: 15%;
+}
+.input-user-box {
+  position: relative;
+}
+.input-user-box:focus,.input-pw-box:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  border-color:  rgba(131, 131, 131, 1)!important;
+}
+.input-user {
+  color: rgba(144, 144, 144, 1);
+  font-family: "FontAwesome";
+  font-size: 13px;
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  transform: translateY(-50%);
+}
+.input-pw-box{
+  position: relative;
+}
+.input-pw{
+  color: rgba(144, 144, 144, 1);
+  font-family: "FontAwesome";
+  font-size: 13px;
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  transform: translateY(-50%);
+}
+.login-left-head {
+    color: #6E6E6E;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: center;
+    margin: 2px 0 70px 0;
+}
+.vl {
+    height: 80vh; 
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+  .checkbox-login[type="checkbox"] {
+    border-radius: 0em !important;
+    margin-top: 0px;
+}
+.checkbox-login[type="checkbox"]:focus
+{
+outline: none !important;
+box-shadow: none !important;
+border-color: rgba(37, 187, 225, 1) !important;}
+  .remove-border-box {
+    border: none;
+    border-bottom: 1px solid rgba(131, 131, 131, 1);
+    border-radius: 0px !important;
+    width: 300px !important;
+  }
+
+  .remove-border-box::placeholder {
+    color: rgba(144, 144, 144, 1);
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .form-check-left{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .login-left-forget{
+    color: rgba(37, 187, 225, 1);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 12.1px;
+    text-align: right;
+    text-decoration: none;
+  }
+  .login-check-input{
+    border: 1px solid rgba(37, 187, 225, 1);
+    width: 15px;
+    height: 15px;
+  }
+  .input-pw-box{
+    position: relative;
+  }
+  .eye-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 13px;
+  }
+  .form-login{
+    font-family: 'Inter',sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 2px;
+
+  }
+  
+  .btn-login-page{
+    font-weight: 400;
+    font-size: 19px;
+    border-radius: 225px;
+    line-height: 18.15px;
+    text-align: center;
+    width: 140.4px;
+    height: 51.6px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(37, 187, 225, 1);
+    box-shadow: -1px 9px 15px 0px rgba(37, 187, 225, 0.28);
+  }
+  .btn-login-page:hover{
+    background: rgb(24, 169, 206);
+    color: rgba(255, 255, 255, 1)
+  }
+  .form-check-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    color: rgba(144, 144, 144, 1);
+  }
+    .login-left-notice {
+      font-weight: 700;
+      font-size: 13px;
+      text-align: center;
+      line-height: 14.5px;
+      letter-spacing: 2.5%;
+      color: rgba(144, 144, 144, 1);
+  }
+  .btn-arrow-right{
+    font-size: 15px;
+  }
+  
+  .login-left-notice>a{
+    color: rgba(37, 187, 225, 1);
+    text-decoration: none;
+    font-weight: 600 ;
+  }
+  .form-check-pw{
+    margin-top: 28px !important;
+  }
+  .btn-login-left{
+    margin-top: 45px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .login-right {
+    background: radial-gradient(164.49% 141.61% at 1.21% 98.34%, #25BBE1 0.77%, #C34FD5 34.9%, #5400DE 72.92%);
+    width: 50.19%; 
+    height: 100%;
+  }
+
+  .eye-btn{
+    color: rgba(144, 144, 144, 1);
+  }
+/* Sign Up Css Here */
+.sign-up-border {
+  border: none;
+  border-bottom: 1px solid rgba(131, 131, 131, 1);
+  border-radius: 0px !important;
+  width: 150px !important;
+}
+
+.sign-up-border::placeholder {
+  color: rgba(144, 144, 144, 1);
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.sign-up-names{
+  display: flex;
+  justify-content: space-between;
+}
+
